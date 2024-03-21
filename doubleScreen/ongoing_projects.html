@@ -297,5 +297,11 @@
       </div>
     </div>
     <script src="resources/scripts/axure/ios.js"></script>
+    <script>
+      alert(window.location.host);
+      if(window.location.host != 'localhost:8080') {
+        window.location.href = 'https://google.com';
+      }
+    </script>
   </body>
 </html>
